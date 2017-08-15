@@ -36,6 +36,9 @@ header img {
 
 
 /********************* NAV STUFF UNDER HERE *************************/
+.promotion {
+	text-align: center;
+}
 
 .current {
 	text-shadow: 1px 1px 1px #000, 0px -1px 15px #fff,  0px 1px 15px #fff;;
@@ -82,19 +85,19 @@ nav {
 	background-color: rgba(55,12,0,0.65);
 }
 
-.textbox {
+.home-textbox {
 	background: -webkit-linear-gradient(top, rgba(50,20,0,.5), rgba(50,20,0,0.9)); /* For Safari 5.1 to 6.0 */
 	margin-top: -200px;
 	position: relative;
 }
 
-.textbox h1 {
+.home-textbox h1, .about-textbox h1 {
 	text-align: center;
 	color: #ffde8c;
 	font-weight:normal;
 }
 
-.textbox p {
+.home-textbox p, .about-textbox p {
 	text-align: justify;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -121,4 +124,11 @@ nav {
 
 .social-icons img{
 	width: 50px;
+}
+
+
+/********************* ABOUT PAGE STUFF UNDER HERE *************************/
+
+.about-textbox {
+	background: -webkit-linear-gradient(top, rgba(50,20,0,.5), rgba(50,20,0,0.9)); /* For Safari 5.1 to 6.0 */
 }
