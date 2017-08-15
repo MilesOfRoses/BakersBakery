@@ -3,8 +3,9 @@ html {
 	padding: 0;
 	font: normal 100%/1.4 Georgia,serif;
 	background: url("../images/background-texture-compressed.png");
-	background-size: 100% 1000px;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .wrapper {
@@ -30,7 +31,7 @@ header img {
 .header-bar {
 	height: 12px;
 	margin-top: -12px;
-	background-color: rgba(55,12,0,0.55);
+	background-color: rgba(55,12,0,0.65);
 }
 
 
@@ -73,4 +74,51 @@ nav {
 
 .home-image{
 	width: 880px;
+}
+
+
+.textbox-bar {
+	height: 12px;
+	background-color: rgba(55,12,0,0.65);
+}
+
+.textbox {
+	background: -webkit-linear-gradient(top, rgba(50,20,0,.5), rgba(50,20,0,0.9)); /* For Safari 5.1 to 6.0 */
+	margin-top: -200px;
+	position: relative;
+}
+
+.textbox h1 {
+	text-align: center;
+	color: #ffde8c;
+	font-weight:normal;
+}
+
+.textbox p {
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffde8c;
+	line-height: 200%;
+	word-spacing: 2.5px;
+}
+
+.facebook{
+	position: relative;
+	z-index: 50;
+}
+
+.social-icons {
+	text-align: center;
+	list-style-type: none;
+	margin-right: 40px;
+}
+
+.social-icons li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.social-icons img{
+	width: 50px;
 }
