@@ -18,7 +18,7 @@ html {
 /********************* HEADER STUFF UNDER HERE *************************/
 
 header {
-	background: -webkit-linear-gradient(top, rgba(50,20,0,0.09), rgba(50,20,0,0.5)); /* For Safari 5.1 to 6.0 */
+	background: -webkit-linear-gradient(top, rgba(50,20,0,0.07), rgba(50,20,0,0.5)); /* For Safari 5.1 to 6.0 */
 	height: 215px;
 }
 
@@ -125,8 +125,9 @@ nav {
 /********************* ABOUT PAGE STUFF UNDER HERE *************************/
 
 .about-page .textbox, .location-page .textbox {
-	background: -webkit-linear-gradient(top, rgba(50,20,0,.5), rgba(50,20,0,0.9)); /* For Safari 5.1 to 6.0 */
+	background: -webkit-linear-gradient(top, rgba(50,20,0,.6), rgba(50,20,0,0.9)); /* For Safari 5.1 to 6.0 */
 	margin-top: -15px;
+	margin-bottom: -15px;
 }
 
 /********************* MENU GALLERY STUFF UNDER HERE *************************/
@@ -190,4 +191,20 @@ nav {
    -webkit-column-count: 1;
     column-count:        1;
    }
+  }
+  /********************* FOOTER STUFF UNDER HERE *************************/
+
+  footer .textbox{
+  	margin-top: 15px;
+	text-align: center;
+	height: 50px;
+  }
+
+  footer a {
+  	color: #ffde8c;
+  	margin-top: 10px;
+  }
+
+  #credit {
+  	text-decoration: none;
   }
