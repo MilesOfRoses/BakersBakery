@@ -79,36 +79,32 @@ nav {
 	width: 880px;
 }
 
-
 .textbox-bar {
 	height: 12px;
-	background-color: rgba(55,12,0,0.65);
+	background-color: rgba(55,12,0,0.75);
 }
 
-.home-textbox {
+.textbox {
 	background: -webkit-linear-gradient(top, rgba(50,20,0,.5), rgba(50,20,0,0.9)); /* For Safari 5.1 to 6.0 */
 	margin-top: -200px;
 	position: relative;
 }
 
-.home-textbox h1, .about-textbox h1 {
+.textbox h1, .menu-textbox h1 {
 	text-align: center;
 	color: #ffde8c;
 	font-weight:normal;
+	margin-bottom: 5px;
+	margin-top: 15px;
 }
 
-.home-textbox p, .about-textbox p {
+.textbox p {
 	text-align: justify;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #ffde8c;
 	line-height: 200%;
 	word-spacing: 2.5px;
-}
-
-.facebook{
-	position: relative;
-	z-index: 50;
 }
 
 .social-icons {
@@ -126,9 +122,72 @@ nav {
 	width: 50px;
 }
 
-
 /********************* ABOUT PAGE STUFF UNDER HERE *************************/
 
-.about-textbox {
+.about-page .textbox, .location-page .textbox {
 	background: -webkit-linear-gradient(top, rgba(50,20,0,.5), rgba(50,20,0,0.9)); /* For Safari 5.1 to 6.0 */
+	margin-top: -15px;
 }
+
+/********************* MENU GALLERY STUFF UNDER HERE *************************/
+
+.menu-textbox {
+	background: -webkit-linear-gradient(top, rgba(50,20,0,.5), rgba(50,20,0,0.9));
+	height:180px;
+	margin-top: -120px;
+	position: relative;
+}
+
+.menu-item {
+	padding-top: 15px;
+}
+
+.menu-item .textbox-bar {
+	margin-bottom: -12px;
+	position: relative;
+}
+
+.bottom {
+	margin-bottom: -50px;
+	position: relative;
+}
+
+.menu-textbox p {
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffde8c;
+	line-height: 160%;
+	word-spacing: 2.5px;
+	margin-top: 5px;
+}
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap:   15px;
+  -moz-column-count:    2;
+  -moz-column-gap:      15px;
+  column-count:         2;
+  column-gap:           15px;  
+}
+
+#photos .menu-item img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+#photos{
+  display:inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+  @media (max-width: 635px) {
+   #photos {
+   -moz-column-count:    1;
+   -webkit-column-count: 1;
+    column-count:        1;
+   }
+  }
